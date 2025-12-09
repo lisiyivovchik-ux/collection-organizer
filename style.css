@@ -1,1 +1,21 @@
-/* base styles */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  input,
+  button {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  li button {
+    margin-top: 5px;
+  }
+}
