@@ -1,0 +1,16 @@
+{
+	"id": "b57959a0-3c6b-4d84-9893-26fddffee228",
+	"name": "CollectionOrganizerEnv",
+	"values": [
+		{
+			"key": "base_url",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"color": null,
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2025-12-16T02:42:33.220Z",
+	"_postman_exported_using": "Postman/11.76.2-251216-0111"
+}
