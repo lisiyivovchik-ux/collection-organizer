@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "8f8c4634-98f1-4b33-95c5-6d2d24a98e26",
+		"name": "Collection Organizer API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50837870",
+		"_collection_link": "https://lisiyivovchik-6799065.postman.co/workspace/53811f49-3416-4222-825a-be3c01f08104/collection/50837870-8f8c4634-98f1-4b33-95c5-6d2d24a98e26?action=share&source=collection_link&creator=50837870"
+	},
+	"item": [
+		{
+			"name": "Get items",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Книга\",\r\n  \"author\": \"Автор\",\r\n  \"year\": 2024\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/posts",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add item",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/posts",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
